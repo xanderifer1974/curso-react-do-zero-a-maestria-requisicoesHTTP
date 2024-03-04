@@ -24,24 +24,29 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const product ={
+    const product = {
       name,
       price,
-      categoryId
+      categoryId,
     };
 
-    const res = await fetch(url,{
-      method:"POST",
-      headers:{
-        "Content-Type":"application/json",
+    const res = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(product),
     });
 
-    
+    //3 - Carregamento dinâmico
+    const addedProduct = await res.json();
 
+    setProducts((prevProducts) => [...prevProducts, addedProduct]);
 
-  }; 
+    setName("");
+    setPrice("");
+    setCategoryId("");
+  };
   return (
     <div className="App">
       <h1>Lista de Produtos</h1>
@@ -49,7 +54,8 @@ function App() {
         {products.map((product) => {
           return (
             <li key={product.id}>
-              {product.name} - R$: {product.price} - IdCategoria: {product.categoryId}
+              {product.name} - R$: {product.price} - IdCategoria:{" "}
+              {product.categoryId}
             </li>
           );
         })}
