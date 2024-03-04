@@ -1,138 +1,144 @@
 {
-    "categories": [
-        {
-            "id": 1,
-            "name": "Eletrônicos"
-        },
-        {
-            "id": 2,
-            "name": "Roupas"
-        },
-        {
-            "id": 3,
-            "name": "Acessórios"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Smartphone",
-            "price": 1000,
-            "categoryId": 1
-        },
-        {
-            "id": 2,
-            "name": "Notebook",
-            "price": 2000,
-            "categoryId": 1
-        },
-        {
-            "id": 3,
-            "name": "Tablet",
-            "price": 500,
-            "categoryId": 1
-        },
-        {
-            "id": 4,
-            "name": "Camiseta",
-            "price": 30,
-            "categoryId": 2
-        },
-        {
-            "id": 5,
-            "name": "Calça Jeans",
-            "price": 50,
-            "categoryId": 2
-        },
-        {
-            "id": 6,
-            "name": "Tênis",
-            "price": 80,
-            "categoryId": 2
-        },
-        {
-            "id": 7,
-            "name": "Relógio",
-            "price": 120,
-            "categoryId": 3
-        },
-        {
-            "id": 8,
-            "name": "Bolsa",
-            "price": 70,
-            "categoryId": 3
-        },
-        {
-            "id": 9,
-            "name": "Óculos de sol",
-            "price": 50,
-            "categoryId": 3
-        },
-        {
-            "id": 10,
-            "name": "Monitor",
-            "price": 300,
-            "categoryId": 1
-        },
-        {
-            "id": 11,
-            "name": "Impressora",
-            "price": 150,
-            "categoryId": 1
-        },
-        {
-            "id": 12,
-            "name": "Blusa",
-            "price": 40,
-            "categoryId": 2
-        },
-        {
-            "id": 13,
-            "name": "Saia",
-            "price": 35,
-            "categoryId": 2
-        },
-        {
-            "id": 14,
-            "name": "Boné",
-            "price": 20,
-            "categoryId": 2
-        },
-        {
-            "id": 15,
-            "name": "Mochila",
-            "price": 60,
-            "categoryId": 3
-        },
-        {
-            "id": 16,
-            "name": "Pulseira",
-            "price": 25,
-            "categoryId": 3
-        },
-        {
-            "id": 17,
-            "name": "Anel",
-            "price": 30,
-            "categoryId": 3
-        },
-        {
-            "id": 18,
-            "name": "Fone de ouvido",
-            "price": 40,
-            "categoryId": 1
-        },
-        {
-            "id": 19,
-            "name": "Teclado",
-            "price": 50,
-            "categoryId": 1
-        },
-        {
-            "id": 20,
-            "name": "Mouse",
-            "price": 20,
-            "categoryId": 1
-        }
-    ]
+  "categories": [
+    {
+      "id": 1,
+      "name": "Eletrônicos"
+    },
+    {
+      "id": 2,
+      "name": "Roupas"
+    },
+    {
+      "id": 3,
+      "name": "Acessórios"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "price": 1000,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Notebook",
+      "price": 2000,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Tablet",
+      "price": 500,
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Camiseta",
+      "price": 30,
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "name": "Calça Jeans",
+      "price": 50,
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Tênis",
+      "price": 80,
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Relógio",
+      "price": 120,
+      "categoryId": 3
+    },
+    {
+      "id": 8,
+      "name": "Bolsa",
+      "price": 70,
+      "categoryId": 3
+    },
+    {
+      "id": 9,
+      "name": "Óculos de sol",
+      "price": 50,
+      "categoryId": 3
+    },
+    {
+      "id": 10,
+      "name": "Monitor",
+      "price": 300,
+      "categoryId": 1
+    },
+    {
+      "id": 11,
+      "name": "Impressora",
+      "price": 150,
+      "categoryId": 1
+    },
+    {
+      "id": 12,
+      "name": "Blusa",
+      "price": 40,
+      "categoryId": 2
+    },
+    {
+      "id": 13,
+      "name": "Saia",
+      "price": 35,
+      "categoryId": 2
+    },
+    {
+      "id": 14,
+      "name": "Boné",
+      "price": 20,
+      "categoryId": 2
+    },
+    {
+      "id": 15,
+      "name": "Mochila",
+      "price": 60,
+      "categoryId": 3
+    },
+    {
+      "id": 16,
+      "name": "Pulseira",
+      "price": 25,
+      "categoryId": 3
+    },
+    {
+      "id": 17,
+      "name": "Anel",
+      "price": 30,
+      "categoryId": 3
+    },
+    {
+      "id": 18,
+      "name": "Fone de ouvido",
+      "price": 40,
+      "categoryId": 1
+    },
+    {
+      "id": 19,
+      "name": "Teclado",
+      "price": 50,
+      "categoryId": 1
+    },
+    {
+      "id": 20,
+      "name": "Mouse",
+      "price": 20,
+      "categoryId": 1
+    },
+    {
+      "name": "Blusa estampada",
+      "price": "50",
+      "categoryId": "2",
+      "id": 21
+    }
+  ]
 }
